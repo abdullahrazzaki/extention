@@ -5,7 +5,7 @@ import Title from "../Title";
 
 const Step1 = ({ onNext }) => {
   return (
-    <>
+    <div className="pt-[40px] px-[40px] pb-[42px]">
       {" "}
       <Title>Welcome to Extention</Title>
       <div className="text-center text-[16px] mb-[12px]">
@@ -20,7 +20,7 @@ const Step1 = ({ onNext }) => {
           <span className="text-[#00B2BD] underline">Privacy Policy</span>
         </p>
       </div>
-    </>
+    </div>
   );
 };
 export default Step1;

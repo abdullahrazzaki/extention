@@ -14,7 +14,7 @@ const Modal = () => {
       class="fixed top-0 left-0 right-0 z-50 w-screen p-4 min-h-screen overflow-x-auto overflow-y-auto md:inset-0 h-modal md:min-h-screen flex items-center justify-center"
     >
       <div class="  relative w-full h-auto max-w-[650px] md:h-auto max-h-[95vh] overflow-hidden py-40px">
-        <div class="rounded-[20px] shadow-[0px_16px_60px_rgba(0,0,0,0.1)] relative bg-white py-[42px] px-[40px] m-[40px]">
+        <div class="rounded-[20px] shadow-[0px_16px_60px_rgba(0,0,0,0.1)] relative bg-white pt-[42px] m-[40px]">
           <button type="button" class="absolute top-[47px] right-[40px]">
             <svg
               width="20"
@@ -40,7 +40,7 @@ const Modal = () => {
             </svg>
             <span class="sr-only">Close modal</span>
           </button>
-          <div className="pb-[40px] text-[26px] text-[#262626] font-medium">
+          <div className=" text-[26px] px-[40px] text-[#262626] font-medium">
             Extention
           </div>
           <div className="flex-1 overflow-y-auto overflow-x-hidden max-h-[calc(90vh-200px)]">

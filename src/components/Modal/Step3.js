@@ -94,7 +94,7 @@ const Image = (props) => (
 
 const Step3 = ({ onNext }) => {
   return (
-    <>
+    <div className="px-[40px] pb-[42px] pt-[40px]">
       {" "}
       <Title>Let`s get started!</Title>
       <div className="text-center text-[16px] mb-[12px]">
@@ -110,7 +110,7 @@ const Step3 = ({ onNext }) => {
       <p class="font-normal text-[16px] text-center  text-[#898989]">
         No credit card necessary
       </p>
-    </>
+    </div>
   );
 };
 export default Step3;
