@@ -13,7 +13,7 @@ const Modal = () => {
       tabindex="-1"
       class="fixed top-0 left-0 right-0 z-50 w-screen p-4 min-h-screen overflow-x-auto overflow-y-auto md:inset-0 h-modal md:min-h-screen flex items-center justify-center"
     >
-      <div class=" relative w-full h-auto max-w-[650px] md:h-auto max-h-[85vh] md:max-h-[unset] overflow-auto">
+      <div class="  relative w-full h-auto max-w-[650px] md:h-auto max-h-[85vh] overflow-auto">
         <div class="rounded-[20px] shadow-[0px_16px_60px_rgba(0,0,0,0.1)] relative bg-white py-[42px] px-[40px]">
           <button type="button" class="absolute top-[47px] right-[40px]">
             <svg
