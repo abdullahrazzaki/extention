@@ -70,7 +70,7 @@ const Accordion = () => {
         return (
           <div
             onClick={() => {
-              setOpenIndex(idx);
+              setOpenIndex((index) => (index === idx ? -1 : idx));
             }}
             className="cursor-pointer"
           >

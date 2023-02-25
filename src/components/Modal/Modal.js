@@ -43,7 +43,7 @@ const Modal = () => {
           <div className="pb-[40px] text-[26px] text-[#262626] font-medium">
             Extention
           </div>
-          <div className="flex-1 overflow-auto max-h-[calc(90vh-200px)]">
+          <div className="flex-1 overflow-y-auto overflow-x-hidden max-h-[calc(90vh-200px)]">
             {state.step === 1 && <Step1 onNext={onNext} />}
             {state.step === 2 && <Step2 onNext={onNext} />}
             {state.step === 3 && <Step3 />}

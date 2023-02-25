@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #fff #00b2bd;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00b2bd;
+  border-radius: 14px;
+  border: 2px solid #00b2bd;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
